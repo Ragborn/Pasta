@@ -1,2 +1,0 @@
-# Pasta
-mockup v1
