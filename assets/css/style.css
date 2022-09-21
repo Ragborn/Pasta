@@ -17,33 +17,45 @@
 }
  
 .dish{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 200px;
-     width: 400px;
-    height: 400px ;
-    margin-left: 100px;
-    
+    display:inline-grid;
+    grid-template-columns: 30% 30%  30%  ;
+    column-gap: 70px ;
+    justify-items: flex-start;
 }
  
+    .dsc{
+        width: 400px;
+        height: 400px;
+        margin-left: 100px;
+        margin-right: 200px;
+    }
+    
+    .dsh{
+        width:420px;
+        height: 420px;
+        margin-right: 200px;
+    }
+    
+    .dss{
+        width: 380px;
+        height: 380px;
+    }
 
 
 .info{
-   display: flex;
-   flex-direction: row;
-   justify-content:center;
-   margin-left: 40px ;
-   font-family:'Kaushan Script', cursive ;
-   font-size: large;
+   display: grid;
+   display:inline-grid;
+    grid-template-columns: 30% 30%  30%  ;
+    column-gap: 40px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
-    display: flex;
+    display:grid;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-top:20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button{
