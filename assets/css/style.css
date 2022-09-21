@@ -8,57 +8,45 @@
 
 
 
-.undrtxt{
+.text{
     padding-top: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: black;
     text-align: center;
 }
-
+ 
 .dish{
     display: flex;
-    padding-top: 60px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 200px;
+     width: 400px;
+    height: 400px ;
+    margin-left: 100px;
+    
 }
  
-.dsc{
-    width: 400px;
-    height: 400px;
-    margin-left: 100px;
-    margin-right: 200px;
-}
 
-.dsh{
-    width:420px;
-    height: 420px;
-    margin-right: 200px;
-}
-
-.dss{
-    width: 380px;
-    height: 380px;
-}
 
 .info{
-   margin-left: 40px;
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:30% 30% 30% ;
-    column-gap: 30px;
-    row-gap: 30px;
-
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   margin-left: 40px ;
+   font-family:'Kaushan Script', cursive ;
+   font-size: large;
 }
 
 .container{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    margin-top:20px ;
 }
 
 .button{
-   
     color: white;
     background-color: #2f3030;
     border-radius: 50px;
