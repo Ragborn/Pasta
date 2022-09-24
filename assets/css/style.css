@@ -1,64 +1,57 @@
-.lor{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 150px;
-    line-height: 15px;
+.name{
+   text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
     color: black;
-    text-align: center;
+    width: auto;
 }
 
 
 
-.undrtxt{
-    padding-top: 40px;
+.text{
+   
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 2em;
     color: black;
     text-align: center;
+    width: auto;
 }
 
-.dish{
+.main{
     display: flex;
-    padding-top: 60px;
-}
- 
-.dsc{
-    width: 400px;
-    height: 400px;
-    margin-left: 100px;
-    margin-right: 200px;
-}
-
-.dsh{
-    width:420px;
-    height: 420px;
-    margin-right: 200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   align-content: stretch;
+   justify-content: stretch;
+   font-family:'Kanit', sans-serif; 
+   gap: 7em;
+   margin-left: 4em ;
+   width: auto;
+   margin-bottom: 5em;
 }
 
-.dss{
-    width: 380px;
-    height: 380px;
+.pic1{
+    max-width: 80%;
+    max-height: 80%;
 }
 
-.info{
-   margin-left: 40px;
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:30% 30% 30% ;
-    column-gap: 30px;
-    row-gap: 30px;
-
+.pic2{
+    max-width:80%;
+    max-height:80%;    
+}
+.pic3{
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .container{
-    
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+   margin-bottom: 3em;
+   width: auto;
 }
 
 .button{
-   
     color: white;
     background-color: #2f3030;
     border-radius: 50px;
