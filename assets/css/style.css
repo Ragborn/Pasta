@@ -1,49 +1,54 @@
-.lor{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 150px;
-    line-height: 15px;
+.name{
+   text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
     color: black;
-    text-align: center;
+    width: auto;
 }
 
 
 
 .text{
-    padding-top: 40px;
+   
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 2em;
     color: black;
     text-align: center;
+    width: auto;
 }
- 
-.dish{
+
+.main{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 200px;
-     width: 400px;
-    height: 400px ;
-    margin-left: 100px;
-    
+   align-content: stretch;
+   justify-content: stretch;
+   font-family:'Kanit', sans-serif; 
+   gap: 7em;
+   margin-left: 4em ;
+   width: auto;
+   margin-bottom: 5em;
 }
- 
 
+.pic1{
+    max-width: 80%;
+    max-height: 80%;
+}
 
-.info{
-   display: flex;
-   flex-direction: row;
-   justify-content:center;
-   margin-left: 40px ;
-   font-family:'Kaushan Script', cursive ;
-   font-size: large;
+.pic2{
+    max-width:80%;
+    max-height:80%;    
+}
+.pic3{
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-top:20px ;
+   margin-bottom: 3em;
+   width: auto;
 }
 
 .button{
