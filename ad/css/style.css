@@ -31,6 +31,30 @@
     border: 0.2em solid black;
 }
 
+.container{
+    
+}
+
+.button{
+    color: red;
+    background-color:black;
+    border-radius: 50px;
+    line-height: 50px;
+    width: 240px;
+    font-family:  'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.button:hover{
+    color: rgb(229, 255, 0);
+    background-color:blue;
+    border-radius: 70px;
+    line-height: 70px;
+    width: 300px;
+    font-family:  'Kanit', sans-serif;
+    font-size: 25px;
+}
+
 
 
 @media (max-width:390px) {
