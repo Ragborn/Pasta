@@ -20,7 +20,8 @@
 
 .content2, .content5{
     border: 0.2em solid black;
-    height: 8em;
+    width: auto;
+    height: auto;
 }
 
 .content3, .content6{
