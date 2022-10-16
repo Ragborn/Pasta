@@ -1,3 +1,4 @@
+
 .boxes{
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-    height: 100vh;
+    height: auto;
 }
 
 .header{
@@ -19,7 +20,8 @@
 
 .content2, .content5{
     border: 0.2em solid black;
-    height: 8em;
+    width: auto;
+    height: auto;
 }
 
 .content3, .content6{
@@ -29,6 +31,27 @@
 
 .footer{
     border: 0.2em solid black;
+}
+
+
+.button{
+    color: red;
+    background-color:black;
+    border-radius: 50px;
+    line-height: 50px;
+    width: 240px;
+    font-family:  'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.button:hover{
+    color: rgb(229, 255, 0);
+    background-color:blue;
+    border-radius: 65px;
+    line-height: 65px;
+    width: 300px;
+    font-family:  'Kanit', sans-serif;
+    font-size: 25px;
 }
 
 
@@ -59,7 +82,6 @@ height: 6em;
 .footer{flex:1 100%;
 height: 7em;
 }
-
 }
 
 
@@ -68,17 +90,17 @@ height: 7em;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        height: 100vh;
+       height: 100vh;
         text-align: center;
         gap:3em;
         }
-
+ 
 
 .header{
-    order: 1;
+    order:1;
 }
 .content1{
-    order: 2;
+    order:2;
 }
 .content2{
     order: 3;
@@ -87,20 +109,24 @@ height: 7em;
     order: 5;
 }
 .content4{
-    order: 2;
+    order:2 ;
 }
 .content5{
     order: 6;
 }
 .content6{
-    order: 7;
+    order:7 ;
 }
 .footer{
-order: 8;
+    order:8 ;
 }
+.container{
+    order: 9;
+}
+
 .header{
     flex:1 100%;
-    margin-top: 6em;
+
 }
 
 .content1, .content4{
@@ -119,6 +145,9 @@ order: 8;
     flex: 1 100%;
 }
 
+.container{
+    flex:1 100%;
+}
 
 
 }
